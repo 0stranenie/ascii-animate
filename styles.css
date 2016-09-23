@@ -1,0 +1,87 @@
+.a {
+  animation: 1s step-end 0s infinite blink;
+}
+
+.b {
+  animation: 1s step-end .25s infinite blink;
+}
+
+.c {
+  animation: 1s step-end .5s infinite blink;
+}
+
+.d {
+  animation: 1s step-end .75s infinite blink;
+}
+
+.aa {
+  animation: 1s step-end 0s infinite blink;
+}
+
+.bb {
+  animation: 1s step-end .166s infinite blink;
+}
+
+.cc {
+  animation: 1s step-end .333s infinite blink;
+}
+
+.dd {
+  animation: 1s step-end .5s infinite blink;
+}
+
+.ee {
+  animation: 1s step-end .666s infinite blink;
+}
+
+.ff {
+  animation: 1s step-end .833s infinite blink;
+}
+
+@keyframes blink {
+  0% { opacity: 0.0; }
+  50% { opacity: 1.0; }
+  100% { opacity: 0.0; }
+}
+
+@keyframes pur {
+  0% { color: purple; }
+  33% { color: orange; }
+  66% { color: green; }
+}
+
+@keyframes ora {
+  0%{ color: green; }
+  33% { color: purple; }
+  66% { color: orange; }
+}
+
+@keyframes gre {
+  0%{ color: orange; }
+  33% { color: green; }
+  66% { color: purple; }
+}
+
+.red {
+  color: red;
+}
+.pur {
+  animation: blink 2s step-end 0s infinite,
+             pur 6s step-end 0s infinite;
+}
+.ora {
+  animation: blink 2s step-end .25s infinite,
+             ora 6s step-end .25s infinite;
+}
+.gre {
+  animation: blink 2s step-end .5s infinite,
+             gre 6s step-end .5s infinite;
+}
+
+.centered {
+  text-align: center;
+}
+
+p {
+  line-height: 100%
+}
