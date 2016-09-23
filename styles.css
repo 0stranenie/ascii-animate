@@ -82,6 +82,6 @@
   text-align: center;
 }
 
-p {
-  margin: 0;
+pre {
+  font-size: 4.9vh;
 }
