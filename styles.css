@@ -69,17 +69,17 @@
 .pur {
   color: purple;
   animation: blink 2s step-end 0s infinite,
-             pur 6s step-end 0s infinite;
+             pur .25s step-end 0s infinite;
 }
 .ora {
   color: green;
   animation: blink 2s step-end .25s infinite,
-             ora 6s step-end .25s infinite;
+             ora .25s step-end .25s infinite;
 }
 .gre {
   color: orange;
   animation: blink 2s step-end .5s infinite,
-             gre 6s step-end .5s infinite;
+             gre .25s step-end .5s infinite;
 }
 
 .centered {
